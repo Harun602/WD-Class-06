@@ -1,0 +1,98 @@
+/* Universal selector or all selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Element type selector - Tag selector */
+h1{
+    color: red;
+}
+
+p{
+    
+}
+
+div{
+
+}
+
+
+/* Class selector */
+.space-bottom{
+    margin-bottom: 40px;
+}
+.my-class{
+    background: green;
+    margin-bottom: 10px;;
+}
+
+.amazing-heading{
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+}
+.red-heading{
+    color: red !important;
+}
+.my-heading-class{
+    color: red;
+}
+
+/* ID selector */
+#my-id{
+    background: gray;
+    font-size: 50px;
+    color: green;
+}
+
+ 
+/* Descendent Selector  */
+.parent h4{
+    color: red;
+}
+
+.one .two .three h5{
+    color: orange;
+    font-size: 40px;
+}
+
+
+/*Child Selector  */
+.first>div>h6{
+    font-size: 50px;
+    color: red;
+}
+.one>.two>.three>h5{
+    color: orange;
+    font-size: 40px;
+}
+
+
+
+/* Psuedo Selector  */
+ul>li:nth-child(even){
+    color: red;
+    font-size: 35px;
+}
+
+.para p{
+    color: gray;
+    font-size: 22px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.para p:hover{
+    color: red;
+}
+
+.para p::selection{
+    background: orange;
+    color: green;
+}
+
+.para p::first-letter{
+    font-size: 90px;
+}

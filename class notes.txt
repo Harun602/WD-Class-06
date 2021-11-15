@@ -1,0 +1,8 @@
+Universal Selector -- (*)
+Tag Selector--------- (tag)
+Class Selector------- (.)
+ID Selector --------- (#)
+
+Descendent Selector --(space)
+Child Selector  ------ (>)
+psuedo selector ------ (: or ::)
